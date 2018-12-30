@@ -41,6 +41,10 @@ option allows writing of special MIFARE cards that can be 'unlocked' to allow bl
 to be overwritten. This includes UID and manufacturer data. Take care when amending UIDs to set
 the correct BCC (UID checksum). Currently only 4 byte UIDs are supported.
 
+The
+.B x
+option will force the write mode to accept a normal write command block 0 writable card.
+
 Similarly, the
 .B R
 option allows an 'unlocked' read. This bypasses authentication and allows
